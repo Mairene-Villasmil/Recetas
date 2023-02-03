@@ -16,7 +16,7 @@ a i {
     text-decoration-line: none;
 }
 
-main{
+main {
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -43,11 +43,10 @@ article {
 }
 
 button h3 i {
-        font-family: cursive;
-        font-size: medium;
-        border: solid 3px black;
-        width: 190px;
-        height: 20px;
-        justify-content: center;
+    font-family: cursive;
+    font-size: medium;
+    border: solid 3px black;
+    width: 190px;
+    height: 20px;
+    justify-content: center;
 }
-

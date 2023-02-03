@@ -18,7 +18,7 @@ header h1 {
     background-image: url(../imagenes/logo\ maqueta\ -\ copia\ \(2\).jpg);
 }
 
-main{
+main {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -98,7 +98,7 @@ h3 img {
     align-items: center;
 }
 
-.fondo_texto{
+.fondo_texto {
     margin-top: 40px;
     margin-left: 30px;
     display: flex;
@@ -126,7 +126,7 @@ h3 img {
     display: flex;
 }
 
-.container_ingredientes{
+.container_ingredientes {
     display: inline;
     width: 30%;
 }
@@ -136,7 +136,7 @@ h3 img {
     margin: 40px 80px;
 }
 
-section ol{
+section ol {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -296,7 +296,7 @@ footer i {
     color: rgb(140, 36, 36);
 }
 
-.copyright{
+.copyright {
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-small;
 }
