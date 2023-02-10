@@ -19,8 +19,6 @@ header h1 {
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     height: 80%;
 }
@@ -36,7 +34,8 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 20px;
+    align-items: flex-end;
+    margin-bottom: 40px;
 }
 
 .navegacion {
@@ -101,6 +100,7 @@ h3 img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-left: 40px;
     margin-top: 20px;
 }
@@ -119,6 +119,7 @@ h3 img {
 
 .container {
     width: 100%;
+    height: auto;
     display: flex;
 }
 
@@ -130,12 +131,16 @@ h3 img {
 .container_uno {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 30px 0px 40px;
 }
 
 .item_uno {
     display: inline;
     width: 50%;
+    height: 100%;
     margin-left: 60px;
 }
 
@@ -147,6 +152,7 @@ h3 img {
 .item_dos {
     display: inline;
     width: 50%;
+    height: 100%;
     margin-left: 60px;
 }
 
@@ -157,6 +163,7 @@ h3 img {
 
 .container_dos {
     width: 100%;
+    height: 100%;
     display: flex;
     margin: 30px 0px 40px;
 }
@@ -164,6 +171,7 @@ h3 img {
 .item_tres {
     display: inline;
     width: 50%;
+    height: 100%;
     margin-left: 60px;
 }
 
@@ -175,6 +183,7 @@ h3 img {
 .item_cuatro {
     display: inline;
     width: 50%;
+    height: 100%;
     margin-left: 60px;
 }
 
@@ -185,6 +194,7 @@ h3 img {
 
 .contaier_tres {
     width: 100%;
+    height: 100%;
     display: flex;
     margin: 30px 0px 40px;
 }
@@ -192,17 +202,20 @@ h3 img {
 .item_cinco {
     display: inline;
     width: 50%;
+    height: 100%;
     margin-left: 60px;
 }
 
 .item_cinco li {
     width: 75%;
+    height: 100%;
     background-color: rgba(239, 224, 206, 0.6);
 }
 
 .item_seis {
     display: inline;
     width: 50%;
+    height: 100%;
     margin-left: 60px;
 }
 

@@ -19,6 +19,9 @@ a i {
 main {
     width: 100vw;
     height: 80vh;
+}
+
+.contenedor_form{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,18 +31,20 @@ main {
 article {
     font-family: cursive;
     font-size: x-large;
-    background-color: rgba(239, 224, 206, 0.6);
-    color: red;
+    color: rgb(116, 0, 0);
     text-align: center;
     margin-bottom: 50px;
+    padding: 5px;
+    box-shadow: 8px 8px 10px 4px rgba(41, 41, 41, 0.61);
 }
 
 .formulario {
     font-family: cursive;
-    font-size: large;
-    width: 200px;
-    padding: 5px;
-    background-color: rgba(239, 224, 206, 0.6);
+    font-size: 20px;
+    width: 210px;
+    padding: 10px;
+    background-color: rgba(163, 103, 103, 0.6);
+    border-radius: 10px;
 }
 
 button h3 i {
