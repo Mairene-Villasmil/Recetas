@@ -21,22 +21,49 @@ main {
     height: 80vh;
 }
 
-.texto {
+section nav {
+    width: 100%;
+    height: 10vh;
+}
+
+section .texto{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.nosotros_texto{
-    width: 60%;
-    background-color: rgba(251, 240, 240, 0.664);
-    border-radius: 10px;
+.texto {
+    width: 100%;
+    min-height: 60vh;
 }
 
 p {
+    width: 50%;
+    background-color: rgba(251, 240, 240, 0.664);
+    border-radius: 10px;
     font-family: cursive;
-    font-size: 20px;
-    padding: 18px;
+    font-size: 15px;
+    padding: 10px;
     text-align: justify;
+}
+
+@media screen and (min-width: 680px) and (max-width: 1200px) {}
+
+@media screen and (min-width: 280px) and (max-width: 679px) {
+    a i {
+        font-size: 20px;
+    }
+
+    main {
+        height: 84vh;
+    }
+
+    .nosotros_texto {
+        width: 80%;
+    }
+
+    p {
+        font-size: 12px;
+    }
 }

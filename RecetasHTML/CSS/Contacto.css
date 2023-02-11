@@ -30,28 +30,97 @@ main {
 
 article {
     font-family: cursive;
-    font-size: x-large;
+    font-size: large;
     color: rgb(116, 0, 0);
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding: 5px;
+    background-color: #ffffff85;
     box-shadow: 8px 8px 10px 4px rgba(41, 41, 41, 0.61);
 }
 
 .formulario {
-    font-family: cursive;
-    font-size: 20px;
-    width: 210px;
+    width: 40%;
     padding: 10px;
+    margin: 10px;
     background-color: rgba(163, 103, 103, 0.6);
     border-radius: 10px;
 }
 
-button h3 i {
+
+form label {
+    width: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 3px;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"] 
+{
     font-family: cursive;
-    font-size: medium;
-    border: solid 3px black;
-    width: 190px;
-    height: 20px;
-    justify-content: center;
+    width: 80%;
+    padding: 3px 0px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+form input[type="submit"] 
+{
+    width: 100%;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+    color: #000000;
+}
+
+@media screen and (min-width: 680px) and (max-width: 1200px) {
+    
+}
+
+@media screen and (min-width:  280px) and (max-width: 679px) {
+    a {
+        font-size: 12px;
+    }
+
+    a i {
+        font-size: 20px;
+    }
+
+    main {
+        height: 84vh;
+    }
+
+    article {
+        font-size: 12px;
+        margin-bottom: 80px;
+    }
+
+    .formulario {
+        width: 160px;
+    }
+
+    form label {
+        font-size: 15px;
+    }
+
+    form input[type="text"],
+    form input[type="tel"],
+    form input[type="email"] 
+    {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    form input[type="submit"] 
+{
+    font-size: 15px;
+}
 }

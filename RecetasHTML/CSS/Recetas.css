@@ -45,3 +45,36 @@ button {
 a h4 {
     color: black;
 }
+
+@media screen and (min-width: 680px) and (max-width: 1200px) {}
+
+@media screen and (min-width: 280px) and (max-width: 679px) {
+    a i {
+        font-size: 20px;
+    }
+
+    main {
+        height: 84vh;
+    }
+
+    .boton_ {
+        font-size: 15px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    button{
+        margin: 15px;
+    }
+
+    .container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
