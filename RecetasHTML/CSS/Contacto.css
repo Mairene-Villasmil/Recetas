@@ -1,19 +1,7 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 a i {
     font-size: 40px;
     margin: 5px;
     color: rgb(140, 36, 36);
-}
-
-.boton_ {
-    font-family: cursive;
-    font-size: 25px;
-    color: rgb(140, 36, 36);
-    text-decoration-line: none;
 }
 
 main {
@@ -46,7 +34,6 @@ article {
     background-color: rgba(163, 103, 103, 0.6);
     border-radius: 10px;
 }
-
 
 form label {
     width: 10%;
@@ -82,8 +69,45 @@ form input[type="submit"]
 }
 
 @media screen and (min-width: 680px) and (max-width: 1200px) {
-    
+    a {
+        font-size: 20px;
+    }
+
+    a i {
+        font-size: 33px;
+    }
+
+    main {
+        height: 86vh;
+    }
+
+    article {
+        font-size: 20px;
+        margin: 40px 0px;
+    }
+
+    .formulario {
+        width: 60%;
+    }
+
+    form label {
+        font-size: 30px;
+    }
+
+    form input[type="text"],
+    form input[type="tel"],
+    form input[type="email"] 
+    {
+        width: 80%;
+        font-size: 12px;
+    }
+
+    form input[type="submit"] 
+{
+    font-size: 20px;
 }
+}
+
 
 @media screen and (min-width:  280px) and (max-width: 679px) {
     a {
@@ -100,7 +124,7 @@ form input[type="submit"]
 
     article {
         font-size: 12px;
-        margin-bottom: 80px;
+        margin: 80px 0px;
     }
 
     .formulario {
