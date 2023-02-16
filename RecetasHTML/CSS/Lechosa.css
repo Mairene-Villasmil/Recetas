@@ -29,6 +29,15 @@ p {
     border: solid 3px black;
 }
 
+.caja1{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  .caja1:hover{
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
 .ingredientes {
     font-family: cursive;
     font-size: large;

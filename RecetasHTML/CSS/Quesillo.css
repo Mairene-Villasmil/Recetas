@@ -28,6 +28,15 @@ p {
     border: solid 3px black;
 }
 
+.caja1{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  .caja1:hover{
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+  }
+
 .container {
     display: grid;
     width: 100%;
