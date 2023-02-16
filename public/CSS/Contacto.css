@@ -80,6 +80,47 @@ form input[type="submit"]
     color: #000000;
 }
 
+
+@media screen and (max-width: 679px) {
+    a {
+        font-size: 12px;
+    }
+
+    a i {
+        font-size: 20px;
+    }
+
+    main {
+        height: 86vh;
+    }
+
+    article {
+        font-size: 12px;
+        margin: 80px 0px;
+    }
+
+    .formulario {
+        width: 160px;
+    }
+
+    form label {
+        font-size: 15px;
+    }
+
+    form input[type="text"],
+    form input[type="tel"],
+    form input[type="email"] 
+    {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    form input[type="submit"] 
+{
+    font-size: 15px;
+}
+}
+
 @media screen and (min-width: 680px) and (max-width: 1200px) {
     a {
         font-size: 20px;
@@ -117,46 +158,5 @@ form input[type="submit"]
     form input[type="submit"] 
 {
     font-size: 20px;
-}
-}
-
-
-@media screen and (min-width:  280px) and (max-width: 679px) {
-    a {
-        font-size: 12px;
-    }
-
-    a i {
-        font-size: 20px;
-    }
-
-    main {
-        height: 84vh;
-    }
-
-    article {
-        font-size: 12px;
-        margin: 80px 0px;
-    }
-
-    .formulario {
-        width: 160px;
-    }
-
-    form label {
-        font-size: 15px;
-    }
-
-    form input[type="text"],
-    form input[type="tel"],
-    form input[type="email"] 
-    {
-        width: 70%;
-        font-size: 12px;
-    }
-
-    form input[type="submit"] 
-{
-    font-size: 15px;
 }
 }

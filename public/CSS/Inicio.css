@@ -35,13 +35,13 @@ img {
     box-shadow: 8px 8px 10px 4px rgba(41, 41, 41, 0.61);
 }
 
-@media screen and (min-width: 280px) and (max-width: 679px) {
+@media screen and (max-width: 679px) {
     a i {
         font-size: 20px;
     }
 
-    main {
-        height: 84vh;
+    main{
+        height: 86vh;
     }
 
     img{
